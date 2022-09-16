@@ -1,0 +1,2 @@
+C:\Users\lihgo\.platformio\packages\toolchain-riscv32-esp\bin\riscv32-esp-elf-objdump.exe -d C:\Users\lihgo\Documents\PlatformIO\Projects\esp32-c3-trial\.pio\build\airm2m_core_esp32c3_debug\firmware.elf > .pio\build\airm2m_core_esp32c3_debug\firmware.disasm
+C:\Users\lihgo\.platformio\packages\toolchain-riscv32-esp\bin\riscv32-esp-elf-objdump.exe -d C:\Users\lihgo\Documents\PlatformIO\Projects\esp32-c3-trial\.pio\build\airm2m_core_esp32c3\firmware.elf > .pio\build\airm2m_core_esp32c3\firmware.disasm
