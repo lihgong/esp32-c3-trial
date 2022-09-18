@@ -1,13 +1,14 @@
 #include<stdio.h>
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"
+#include "driver/gpio.h"
+#include "driver/twai.h"
 
-void app_main() 
+void app_main()
 {
-    uint32_t i=0;
-    while(1) {
-        printf("Hello World %d\n", i++);
-        vTaskDelay(200/portTICK_RATE_MS);
-    }
+    extern void test_print(void);
+    extern void test_twai(void);
+    //test_print();
+    test_twai();
 }
 
