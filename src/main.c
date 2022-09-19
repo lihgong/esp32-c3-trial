@@ -7,11 +7,11 @@
 void app_main()
 {
     extern void test_print(void);
-    extern void test_twai(void);
     extern void test_sd_spi(void);
-
+    extern void test_twai(void);
+    
     //test_print();
     test_sd_spi();
-    test_twai();
+    //test_twai();
 }
 
